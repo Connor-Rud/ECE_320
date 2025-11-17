@@ -2934,7 +2934,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TITIES\n"
+	(text "TITIES\nass\n"
 		(exclude_from_sim no)
 		(at 50.292 52.832 0)
 		(effects
