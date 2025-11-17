@@ -2934,26 +2934,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TITIES\nass\n"
-		(exclude_from_sim no)
-		(at 50.292 52.832 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "848a20a6-5341-4758-9af0-1c052fdfc00e")
-	)
-	(text "ASS\n"
-		(exclude_from_sim no)
-		(at 51.308 48.514 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9e377673-3a46-4ea8-af4b-a7c8d5a3e66d")
-	)
 	(junction
 		(at 55.88 166.37)
 		(diameter 0)
