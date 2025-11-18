@@ -4240,6 +4240,28 @@
 		)
 		(uuid "de7f2df0-56fe-4ce8-928b-815a4b17bc52")
 	)
+	(global_label "daddy"
+		(shape input)
+		(at 48.26 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a020578-2275-4c0e-8ba5-aca7cca23307")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.8088 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 176.53 147.32 0)
