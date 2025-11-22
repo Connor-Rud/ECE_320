@@ -4457,6 +4457,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 158.75) (xy 184.15 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c10d585-4028-4083-8012-5b639f58a953")
+	)
+	(wire
+		(pts
 			(xy 158.75 6.35) (xy 158.75 36.83)
 		)
 		(stroke
@@ -4667,6 +4677,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 170.18) (xy 187.96 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc83f22f-b43d-49fb-96fb-0e4946800c71")
+	)
+	(wire
+		(pts
 			(xy 54.61 154.94) (xy 54.61 148.59)
 		)
 		(stroke
@@ -4714,6 +4734,16 @@
 			(type default)
 		)
 		(uuid "c4d4f056-29f8-44cf-ab1c-5d2767b773f8")
+	)
+	(wire
+		(pts
+			(xy 195.58 170.18) (xy 207.01 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73d9b82-7294-458e-a3c9-8f3cad226798")
 	)
 	(wire
 		(pts
@@ -5014,6 +5044,16 @@
 			(type default)
 		)
 		(uuid "f87bcab1-13d7-4086-811d-63cafa8548c0")
+	)
+	(wire
+		(pts
+			(xy 207.01 158.75) (xy 207.01 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf51649-5500-4836-94cf-f13082b3b1d2")
 	)
 	(wire
 		(pts
@@ -9354,6 +9394,72 @@
 			(project "test"
 				(path "/bd97a8e3-4fd6-4a30-adc6-276b3ee6696b"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 191.77 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb48d15c-b3e6-4afe-8bd5-27bd2f6730c5")
+		(property "Reference" "R2"
+			(at 191.77 173.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Parallel with power resistor"
+			(at 191.77 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+			(at 191.77 171.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b64c77b8-23b2-456d-bc99-ab24bdc7f0d7")
+		)
+		(pin "1"
+			(uuid "6b0e0850-09e5-4ede-90b5-769ae2bd041b")
+		)
+		(instances
+			(project "test"
+				(path "/bd97a8e3-4fd6-4a30-adc6-276b3ee6696b"
+					(reference "R2")
 					(unit 1)
 				)
 			)
